@@ -1,0 +1,3 @@
+ROM eclipse-temurin:latest
+COPY ./db.sh /app/db.sh
+ENTRYPOINT bash db.sh
